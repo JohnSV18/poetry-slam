@@ -47,7 +47,7 @@ def lines_printed_random(lines_list):
 lines_printed_random(lines_list)
 
 
-#
+#a custom function that prints the lines with a string right before
 def lines_printed_custom(lines_list):
     for i in range(len(lines_list)):
         print("This line says: " + lines_list[i].strip())
