@@ -47,3 +47,9 @@ def lines_printed_random(lines_list):
 lines_printed_random(lines_list)
 
 
+#
+def lines_printed_custom(lines_list):
+    for i in range(len(lines_list)):
+        print("This line says: " + lines_list[i].strip())
+
+lines_printed_custom(lines_list)
